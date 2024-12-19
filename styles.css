@@ -286,7 +286,6 @@ html {
   line-height: 1.5;
 }
 
-/* Vidutiniai ekranai (planšetės) */
 @media (max-width: 1024px) {
   .testimonial-grid-container {
     display: flex;
@@ -348,7 +347,6 @@ html {
   }
 }
 
-/* Maži ekranai (mobilieji įrenginiai) */
 @media (max-width: 768px) {
   .testimonial-grid-container {
     display: flex;
@@ -385,7 +383,7 @@ html {
   .daniel-about-text,
   .jonathan-about-text {
     font-size: 16px;
-    text-align: center;
+    text-align: start;
   }
 
   .kira-qoute,
@@ -394,7 +392,7 @@ html {
   .daniel-qoute,
   .jonathan-qoute {
     font-size: 12px;
-    text-align: center;
+    text-align: start;
   }
 
   #svg-quotation {
